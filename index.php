@@ -62,7 +62,7 @@ if(isset($_REQUEST['search_button'])=== true){
                         <li class="nav-item"><a class="nav-link text-light" href="index.php">HOME</a></li>
                         <li class="nav-item"><a class="nav-link text-light" href="song1.php">Song 1</a></li>
                         <li class="nav-item"><a class="nav-link text-light" href="song2.php">Song 2</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="#">Song 3</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="song3.php">Song 3</a></li>
                          <li class="nav-item"><a class="nav-link text-light" href="#">Song 4</a></li>
                           <li class="nav-item"><a class="nav-link text-light" href="#">Song 5</a></li>
                     </ul>
@@ -82,9 +82,10 @@ if(isset($_REQUEST['search_button'])=== true){
             <div class="container px-4 ">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-12 text-center">
-                        
                         <form method="POST" class="login-form">
                             <div class="form-group">
+
+
                                 <?php
                                 if(isset($_REQUEST['summersong']) === true){
                                     echo "Redirecting...";
@@ -92,6 +93,9 @@ if(isset($_REQUEST['search_button'])=== true){
                                 }else if(isset($_REQUEST['torete'])=== true){
                                     echo "Redirecting...";
                                     header ("Refresh: 3; url=song2.php");
+                                }else if(isset($_REQUEST['hulingsayaw'])===true){
+                                    echo "Redirecting...";
+                                    header ("Refresh: 3; url=song3.php");
                                 }
                                     
                                 ?>

@@ -21,7 +21,7 @@
                         <li class="nav-item"><a class="nav-link text-light" href="index.php">HOME</a></li>
                         <li class="nav-item"><a class="nav-link text-light" href="song1.php">Song 1</a></li>
                         <li class="nav-item"><a class="nav-link text-light" href="song2.php">Song 2</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="#">Song 3</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="song3.php">Song 3</a></li>
                          <li class="nav-item"><a class="nav-link text-light" href="#">Song 4</a></li>
                           <li class="nav-item"><a class="nav-link text-light" href="#">Song 5</a></li>
                     </ul>
@@ -46,6 +46,7 @@
 
                         echo "<h2 class='text-primary'>Summer Song</h2>";
                         echo "<p class='lead '>Silent Sanctuary</p>";
+                        echo "<br/>";
                 
                         echo "<p> Magkatabi tayo sa duyan </p>";
                         echo "<p> Sa ilalim ng buwan</p>";

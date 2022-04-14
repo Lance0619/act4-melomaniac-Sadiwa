@@ -14,13 +14,13 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
             <div class="container px-4">
-                <a class="navbar-brand" href="#page-top"> Tune Avenue </a>
+                <a class="navbar-brand" href="#page-top"> Tune Station </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link text-light" href="index.php">HOME</a></li>
                         <li class="nav-item"><a class="nav-link text-light" href="song1.php">Song 1</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="#">Song 2</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="song2.php">Song 2</a></li>
                         <li class="nav-item"><a class="nav-link text-light" href="#">Song 3</a></li>
                          <li class="nav-item"><a class="nav-link text-light" href="#">Song 4</a></li>
                           <li class="nav-item"><a class="nav-link text-light" href="#">Song 5</a></li>
@@ -44,95 +44,63 @@
                         
                         <?php
 
-                        echo "<h2 class='text-primary'>Summer Song</h2>";
-                        echo "<p class='lead '>Silent Sanctuary</p>";
+                        echo "<h2 class='text-primary'>Torete</h2>";
+                        echo "<p class='lead '>Moonstar88</p>";
                 
-                        echo "<p> Magkatabi tayo sa duyan </p>";
-                        echo "<p> Sa ilalim ng buwan</p>";
-                        echo "<p> Buhangin sa ating mga paa</p>";
-                        echo "<p> Ang dagat ay kumakanta</p>";
-                        echo "<p> Matagal naring magkakilala</p>";
-                        echo "<p> Minahal na kita</p>";
-                        echo "<p> Simula pa nung unang..</p>";
-                        echo "<p> Unang makita ang iyong mga mata</p>";
-                        echo "<br/>";
-
-
-                        //Pre Chorus
-                        echo "<p> Pre-Chorus</p>";
-                        echo "<p> Sana ay h'wag nang matapos tong</p>";
-                        echo "<p> Pagibig na para lamang sa iyo</p>";
-                        
-                        //Chorus
-                        echo "<br/>";
-                        echo "<p> Chorus</p>";
-                        echo "<p> Gusto kong tumalon, tumalon sa saya dahil</p>";
-                        echo "<p> Ikaw ang kapiling</p>";
-                        echo "<p> Sa iyo, sa iyo, sa iyo lamang</p>";
-                        echo "<p> Ang puso ko</p>";
-                        echo "<p> Sumayaw, sumayaw, sumayaw tayo</p>";
-                        echo "<p> Sa ilalim ng araw</p>";
-                        echo "<br/>";
-
-
-                        echo "<p> Tuwing ika'y nalulungkot</p>";
-                        echo "<p> Nandito lang ako pangako ko sa'yo</p>";
-                        echo "<p> Hindi kita iiwan</p>";
-                        echo "<p> Huwag kang mag-alala (huwag kang mag-alala)</p>";
-                        echo "<p> Gusto mo ng beer ililibre kita (sige na, sige na, sige na)</p>";
-                        echo "<p> Basta't ika'y kasama, di ako mangangamba</p>";
-                        echo "<p> Kislap ng yong mata tibok ng puso'y sumaya</p>";
-                        echo "<br/>";
-
-                        echo "<p> Ikaw lang ang aking mamahalin</p>";
-                        echo "<p> Hanggang sa langit ikaw ay dadalhin</p>";
-                        echo "<p> Tara na, tara na, tara na</p>";
+                        echo "<p> Sandali na lang </p>";
+                        echo "<p> Maaari bang pagbigyan </p>";
+                        echo "<p> Aalis na nga </p>";
+                        echo "<p> Maaari bang hawakan ang </p>";
+                        echo "<p> Iyong mga kamay </p>";
+                        echo "<p> Sana ay maabot ng langit </p>";
+                        echo "<p> Ang iyong mga ngiti </p>";
+                        echo "<p> Sana ay masilip </p>";
                         echo "<br/>";
 
                         //Pre Chorus
                         echo "<p> Pre-Chorus</p>";
-                        echo "<p> Sana ay h'wag nang matapos tong</p>";
-                        echo "<p> Pagibig na para lamang sa iyo</p>";
+                        echo "<p> Wag kang mag-alala</p>";
+                        echo "<p> Di ko ipipilit sa'yo</p>";
+                        echo "<p> Kahit na lilipad ang isip</p>";
+                        echo "<p> Ko'y torete sa'yo</p>";
+                        echo "<br/>";
+
+                        echo "<p> Ilang gabi pa nga lang</p>";
+                        echo "<p> Nang tayo'y pinagtagpo</p>";
+                        echo "<p> Na parang may tumulak</p>";
+                        echo "<p> Nanlalamig nanginginig na ako</p>";
+
+                        echo "<p> Akala ko nung una</p>";
+                        echo "<p> May bukas ang ganito</p>";
+                        echo "<p> Mabuti pang umiwas</p>";
+                        echo "<p> Pero salamat na rin at nagtagpo</p>";
+
 
                         //Chorus
                         echo "<br/>";
                         echo "<p> Chorus</p>";
-                        echo "<p> Gusto kong tumalon, tumalon sa saya dahil</p>";
-                        echo "<p> Ikaw ang kapiling</p>";
-                        echo "<p> Sa iyo, sa iyo, sa iyo lamang</p>";
-                        echo "<p> Ang puso ko</p>";
-                        echo "<p> Sumayaw, sumayaw, sumayaw tayo</p>";
-                        echo "<p> Sa ilalim ng araw</p>";
+                        echo "<p> Torete, torete, torete ako</p>";
+                        echo "<p> Torete, torete, torete sa 'yo</p>";
                         echo "<br/>";
 
-                        echo "<p> Magkatabi tayo sa duyan</p>";
-                        echo "<p> Sa ilalim ng buwan</p>";
-                        echo "<p> Buhangin sa ating mga paa</p>";
-                        echo "<p> Ang dagat ay kumakanta</p>";
+                        echo "<p> Wag kang mag-alala</p>";
+                        echo "<p> Di ko ipipilit sa'yo</p>";
+                        echo "<p> Kahit na lilipad ang isip</p>";
+                        echo "<p> Ko'y torete sa'yo</p>";
                         echo "<br/>";
 
-                        echo "<p> Matagal naring magkakilala</p>";
-                        echo "<p> Minahal na kita</p>";
-                        echo "<p> Simula pa nung una</p>";
-                        echo "<p> Unang makita ang iyong mga mata</p>";
-                        echo "<br/>";
-
-                        //Pre Chorus
-                        echo "<p> Pre-Chorus</p>";
-                        echo "<p> Sana ay h'wag nang matapos tong</p>";
-                        echo "<p> Pagibig na para lamang sa iyo</p>";
-
-                         //Chorus
+                        //Chorus
                         echo "<br/>";
                         echo "<p> Chorus</p>";
-                        echo "<p> Gusto kong tumalon, tumalon sa saya dahil</p>";
-                        echo "<p> Ikaw ang kapiling</p>";
-                        echo "<p> Sa iyo, sa iyo, sa iyo lamang</p>";
-                        echo "<p> Ang puso ko</p>";
-                        echo "<p> Sumayaw, sumayaw, sumayaw tayo</p>";
-                        echo "<p> Sa ilalim ng araw</p>";
-                        echo "<p> Sa ilalim ng araaaaaaawwwwww</p>";
+                        echo "<p> Torete, torete, torete ako</p>";
+                        echo "<p> Torete, torete, torete ako</p>";
                         echo "<br/>";
+
+                        echo "<p> Torete, torete, torete ako</p>";
+                        echo "<p> Torete, torete, torete sa'yo</p>";
+                        echo "<br/>";
+
+                        echo "<p> Torete, torete, torete sa'yo</p>";
 
                         ?>
 

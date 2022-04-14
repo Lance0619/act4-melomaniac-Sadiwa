@@ -61,7 +61,7 @@ if(isset($_REQUEST['search_button'])=== true){
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link text-light" href="index.php">HOME</a></li>
                         <li class="nav-item"><a class="nav-link text-light" href="song1.php">Song 1</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="#">Song 2</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="song2.php">Song 2</a></li>
                         <li class="nav-item"><a class="nav-link text-light" href="#">Song 3</a></li>
                          <li class="nav-item"><a class="nav-link text-light" href="#">Song 4</a></li>
                           <li class="nav-item"><a class="nav-link text-light" href="#">Song 5</a></li>
@@ -89,7 +89,11 @@ if(isset($_REQUEST['search_button'])=== true){
                                 if(isset($_REQUEST['summersong']) === true){
                                     echo "Redirecting...";
                                     header ("Refresh: 3; url=song1.php");
-                                } 
+                                }else if(isset($_REQUEST['torete'])=== true){
+                                    echo "Redirecting...";
+                                    header ("Refresh: 3; url=song2.php");
+                                }
+                                    
                                 ?>
                                 <div class="form-group">
                                     <input type="text" class="form-control rounded-left" placeholder="Song Title here" name="song_title" ></div>
